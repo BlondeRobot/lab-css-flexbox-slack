@@ -91,6 +91,7 @@ header {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    
 }
 
 #home-work-happening {
@@ -106,17 +107,35 @@ header h1 {
 
 header p {
    padding-bottom: 2rem; 
+   line-height: 1.5rem;
 }
 
 .all-buttons {
     height: 3rem;
+    
+    border-radius: 0.4rem;
+}
+
+input {
+    padding-left: 2rem;
     width: 80%;
+    margin-bottom: 0;
+    border: 1px solid #eaebf0;
+}
+
+button {
+    width: 90%;
 }
 
 .get-started {
     
-    margin-top: 2rem;
+    margin-top: 0.5rem;
     margin-bottom: 2rem;
+    background-color: #192592;
+    border-color: #192592;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
 
 }
 
@@ -128,8 +147,12 @@ header p {
 #company {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
     margin-bottom: 2rem;
+    padding-top: 2rem;
+    background-color: #F4F3F4;
+    line-height: 1.5rem;
 }
 
 #company h2 {
@@ -139,9 +162,12 @@ header p {
 
 #company button {
 
-    width: 80%;
+    
     margin-bottom: 2rem;
     margin-top: 2rem;
+    background-color: white;
+    border: 1px solid grey;
+    font-weight: bold;
    
 }
 
@@ -155,32 +181,61 @@ header p {
     height: 8rem;
     display: flex;
     justify-content: center;
+    align-items: center;
+    
     
 }
 
 #company img {
  width: 60%;
- margin-top: auto;
- margin-bottom: auto;
- 
 
 }
 
 #try-it {
-    /* display: flex;
+    display: flex;
     margin-bottom: 2rem;
     flex-direction: column;
-    justify-content: center; */
-    background-color: hotpink;
-    text-align: center;
+    /* justify-content: center;
+    text-align: center; */
+    align-items: center;
+}
+
+#try-it h3 {
+    font-size: 1.5rem;
+}
+
+#try-it p {
+    margin-bottom: 0.7rem;
+}
+
+footer {
+    color: #5b5e6d;
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 #list-container {
     display: flex;
     flex-direction: column;
+    justify-content: flex-end;
     flex-wrap: wrap;
-    background-color: tomato;
+    background-color: #F4F3F4;
     margin-bottom: 2rem;
+}
+
+#list-container ul {
+    padding-right: 3rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+#list-container ul li {
+    padding-top: 1rem;
+}
+
+#list-container ul li:first-child {
+    font-weight: bold;
 }
 
 #iso-slack {
@@ -190,16 +245,27 @@ header p {
 #contacts {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    background-color: #F4F3F4;
+    text-align: center;
+    font-weight: bold;
 }
 
 #contacts ul {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    flex-direction: row;
+    justify-content: space-around;
     text-align: center;
+    margin-bottom: 1rem;
 }
 
 #flag {
     width: 5%;
+}
+
+#english-container {
+    margin-bottom: 1rem;
+}
+
+#icon-container {
+    margin-bottom: 1rem;
 }
